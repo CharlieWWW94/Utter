@@ -8,6 +8,13 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
+const VOICES = Object.freeze([
+  'com.apple.ttsbundle.siri_male_en-US_compact',
+  'com.apple.speech.synthesis.voice.Fred',
+  'com.apple.ttsbundle.siri_female_en-US_compact',
+  'com.apple.ttsbundle.Samantha-compact',
+]);
+
 function Settings() {
   return (
     <View>

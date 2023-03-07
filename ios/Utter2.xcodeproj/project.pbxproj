@@ -12,9 +12,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		212969B0FBC64C73839A6BD8 /* Hanuman-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6BC7EF841AC4F1DAEC10B7A /* Hanuman-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-Utter2-Utter2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Utter2-Utter2Tests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		212969B0FBC64C73839A6BD8 /* Hanuman-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6BC7EF841AC4F1DAEC10B7A /* Hanuman-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +44,8 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-Utter2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Utter2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Utter2/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Utter2-Utter2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utter2-Utter2Tests.release.xcconfig"; path = "Target Support Files/Pods-Utter2-Utter2Tests/Pods-Utter2-Utter2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C6BC7EF841AC4F1DAEC10B7A /* Hanuman-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Regular.ttf"; path = "../assets/fonts/Hanuman-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		C6BC7EF841AC4F1DAEC10B7A /* Hanuman-Regular.ttf */ = {isa = PBXFileReference; name = "Hanuman-Regular.ttf"; path = "../assets/fonts/Hanuman-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +96,15 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = Utter2;
+			sourceTree = "<group>";
+		};
+		16181557531E4FB8AAA0B603 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6BC7EF841AC4F1DAEC10B7A /* Hanuman-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -150,15 +159,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		16181557531E4FB8AAA0B603 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				C6BC7EF841AC4F1DAEC10B7A /* Hanuman-Regular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 

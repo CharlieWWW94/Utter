@@ -61,7 +61,7 @@ export default function NoteBarControl({title, body, onRead = null}) {
         <Text style={styles.noteTitle}>{title}</Text>
       </View>
       <View style={styles.buttonContainer}>
-        {deleteButton}
+        {onRead && deleteButton}
         {onRead && readNoteButton}
         {isPlaying ? pauseButton : playButton}
       </View>
@@ -152,10 +152,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    width: 50,
-    maxHeight: 50,
-    borderColor: 'white',
-    borderWidth: 3,
+    width: 40,
+    maxHeight: 40,
     borderRadius: 25,
     shadowColor: '#000',
     shadowOffset: {
@@ -185,8 +183,8 @@ const styles = StyleSheet.create({
   },
 
   playButton: {
-    height: 25,
-    width: 25,
+    height: 20,
+    width: 20,
     marginLeft: 5,
   },
 

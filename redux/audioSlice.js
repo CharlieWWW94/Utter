@@ -22,4 +22,4 @@ export const {addNote, removeNote} = audioSlice.actions;
 // reducer
 export default audioSlice.reducer;
 // selectors
-export const selectNotes = state => state.audio.notes;
+export const selectNotes = state => state.notes;

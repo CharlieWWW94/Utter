@@ -12,7 +12,6 @@ import NoteBarControl from '../Components/NoteBarControl';
 function Create() {
   const audioNotes = useSelector(state => selectNotes(state));
   const dispatch = useDispatch();
-
   const [displayTip, setDisplayTip] = useState(true);
   const [displayModal, setDisplayModal] = useState(false);
 

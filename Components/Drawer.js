@@ -34,8 +34,7 @@ function Drawer({drawerOpen, drawerTranslation}) {
         </TouchableOpacity>
       </View>
       {pageLink('Home', house, '/')}
-      {pageLink('Create Note', waves, '/create')}
-      {pageLink('My Audio', speaker, '/audio')}
+      {pageLink('My Audio', waves, '/audio')}
       {pageLink('Settings', avatar, '/settings')}
     </Animated.View>
   );
