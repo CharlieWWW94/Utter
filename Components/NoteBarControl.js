@@ -13,15 +13,15 @@ export default function NoteBarControl({title, body, onRead = null}) {
   Tts.addEventListener('tts-progress', event => console.log('progress', event));
   Tts.addEventListener('tts-finish', event => setIsPlaying(false));
 
-  const playAudio = async text => {
+  const playAudio = useCallback(text => {
     setIsPlaying(true);
     Tts.speak(text);
-  };
+  }, []);
 
-  const pauseAudio = () => {
+  const pauseAudio = useCallback(() => {
     setIsPlaying(false);
     Tts.stop();
-  };
+  }, []);
 
   const playButton = (
     <TouchableOpacity onPress={() => playAudio(body)}>

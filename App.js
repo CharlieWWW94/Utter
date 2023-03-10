@@ -31,7 +31,6 @@ function App() {
             <Navigation />
             <View>
               <Routes>
-                {/* <Route exact path="/" element={<Home />} /> */}
                 <Route exact path="/" element={<Create />} />
                 <Route path="/audio" element={<MyAudio />} />
                 <Route path="/settings" element={<Settings />} />

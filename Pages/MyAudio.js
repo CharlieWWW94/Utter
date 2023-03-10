@@ -19,6 +19,7 @@ function MyAudio() {
   const toggleModal = useCallback(val => {
     setDisplayModal(val);
   }, []);
+
   const updateCurrentNote = useCallback(note => {
     setCurrentNote(note);
     setDisplayModal(true);
